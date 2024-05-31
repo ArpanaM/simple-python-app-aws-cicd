@@ -5,4 +5,4 @@ set -e
 docker pull arpanam/mypythonapp
 
 # Run the Docker image as a container
-docker run -d --name mypythoncontainer -p 5001:5000 arpanam/mypythonapp
+docker run -d --name mypythoncontainer2 -p 5001:5000 arpanam/mypythonapp
